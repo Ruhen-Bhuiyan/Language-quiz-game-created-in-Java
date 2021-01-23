@@ -154,6 +154,7 @@ public class Question implements ActionListener{
 		theframe.setVisible(true);		
 		nextQuestion();
 	}
+	
 	public void nextQuestion() {		
 		if(index>=question_number) {
 			results();
@@ -168,6 +169,7 @@ public class Question implements ActionListener{
 			timer.start();
 		}
 	}
+	
 	@Override
 	public void actionPerformed(ActionEvent e) {		
 			buttonA.setEnabled(false);
@@ -200,6 +202,7 @@ public class Question implements ActionListener{
 			}
 			displayAnswer();
 	}
+	
 	public void displayAnswer() {		
 		timer.stop();		
 		buttonA.setEnabled(false);
