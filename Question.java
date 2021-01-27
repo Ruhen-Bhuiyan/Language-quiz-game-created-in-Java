@@ -7,6 +7,7 @@ public class Question implements ActionListener{
 				"How to say no in German?",
 				"How to say yes in German?",
 				"How to say goodbye in German?"
+					
 							};
 	String[][] choices = 	{
 				{"1","2","3","4"},
@@ -53,6 +54,7 @@ public class Question implements ActionListener{
 			}
 			}
 		});	
+	
 	public Question() {
 		theframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		theframe.setSize(750,650);
