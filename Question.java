@@ -42,6 +42,7 @@ public class Question implements ActionListener{
 	JLabel answerD = new JLabel();
 	JLabel time_label = new JLabel();
 	JLabel seconds_left = new JLabel();
+	
 	JTextField number_right = new JTextField();
 	JTextField percentage = new JTextField();	
 	Timer timer = new Timer(1000, new ActionListener() {	
