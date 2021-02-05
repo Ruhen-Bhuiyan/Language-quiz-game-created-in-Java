@@ -28,6 +28,7 @@ public class Question implements ActionListener{
 	char answer;
 	int index;
 	int right_try =0;
+	
 	int question_number = questions.length;
 	int score;
 	int seconds=15;	
