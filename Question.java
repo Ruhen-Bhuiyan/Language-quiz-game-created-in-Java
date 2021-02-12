@@ -1,6 +1,5 @@
 import java.awt.event.*;
 import java.awt.*;
-
 import javax.swing.*;
 public class Question implements ActionListener{	
 	String[] questions = 	{
@@ -28,7 +27,6 @@ public class Question implements ActionListener{
 	char answer;
 	int index;
 	int right_try =0;
-	
 	int question_number = questions.length;
 	int score;
 	int seconds=15;	
@@ -38,7 +36,6 @@ public class Question implements ActionListener{
 	JButton buttonA = new JButton();
 	JButton buttonB = new JButton();
 	JButton buttonC = new JButton();
-	
 	JButton buttonD = new JButton();
 	JLabel answerA = new JLabel();
 	JLabel answerB = new JLabel();
@@ -46,7 +43,6 @@ public class Question implements ActionListener{
 	JLabel answerD = new JLabel();
 	JLabel time_label = new JLabel();
 	JLabel seconds_left = new JLabel();
-	
 	JTextField number_right = new JTextField();
 	JTextField percentage = new JTextField();	
 	Timer timer = new Timer(1000, new ActionListener() {	
@@ -59,7 +55,6 @@ public class Question implements ActionListener{
 			}
 			}
 		});	
-	
 	public Question() {
 		theframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		theframe.setSize(750,650);
@@ -70,7 +65,6 @@ public class Question implements ActionListener{
 		thetextfield.setBackground(new Color(250,25,25));
 		thetextfield.setForeground(new Color(250,255,0));
 		thetextfield.setFont(new Font("Ink Free",Font.BOLD,30));
-		
 		thetextfield.setBorder(BorderFactory.createBevelBorder(1));
 		thetextfield.setHorizontalAlignment(JTextField.CENTER);
 		thetextfield.setEditable(false);		
@@ -177,7 +171,6 @@ public class Question implements ActionListener{
 			timer.start();
 		}
 	}
-	
 	@Override
 	public void actionPerformed(ActionEvent e) {		
 			buttonA.setEnabled(false);
@@ -210,7 +203,6 @@ public class Question implements ActionListener{
 			}
 			displayAnswer();
 	}
-	
 	public void displayAnswer() {		
 		timer.stop();		
 		buttonA.setEnabled(false);
