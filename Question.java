@@ -20,6 +20,7 @@ public class Question implements ActionListener{
 			'A',
 			'A',
 			'A'
+				
 							};
 	
 	char tries;
