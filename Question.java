@@ -54,6 +54,7 @@ public class Question implements ActionListener{
 				displayAnswer();
 			}
 			}
+		
 		});	
 	public Question() {
 		theframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -61,6 +62,7 @@ public class Question implements ActionListener{
 		theframe.getContentPane().setBackground(new Color(250,50,50));
 		theframe.setLayout(null);
 		theframe.setResizable(false);	
+		
 		thetextfield.setBounds(0,0,650,50);
 		thetextfield.setBackground(new Color(250,25,25));
 		thetextfield.setForeground(new Color(250,255,0));
@@ -81,6 +83,7 @@ public class Question implements ActionListener{
 		buttonA.setFocusable(false);
 		buttonA.addActionListener(this);
 		buttonA.setText("A");
+		
 		buttonA.setBackground(new Color(0,40,250));		
 		buttonB.setBounds(20,200,100,100);
 		buttonB.setFont(new Font("MV Boli",Font.BOLD,35));
