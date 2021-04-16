@@ -30,6 +30,7 @@ public class Question implements ActionListener{
 	int question_number = questions.length;
 	int score;
 	int seconds=15;	
+	
 	JFrame theframe = new JFrame();
 	JTextField thetextfield = new JTextField();
 	JTextArea thetextarea = new JTextArea();
