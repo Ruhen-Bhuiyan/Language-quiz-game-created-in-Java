@@ -2,6 +2,7 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 public class Question implements ActionListener{	
+	
 	String[] questions = 	{
 				"How many definite articles are in German language?",
 				"How to say no in German?",
@@ -10,6 +11,7 @@ public class Question implements ActionListener{
 							};
 	String[][] choices = 	{
 				{"1","2","3","4"},
+		
 				{"Nein","nao","het","leai"},
 				{"Ja","Tha","da","ioe"},
 				{"Auf Wiedersehen","\r\n"
@@ -20,6 +22,7 @@ public class Question implements ActionListener{
 			'A',
 			'A',
 			'A'
+				
 				
 							};
 	
