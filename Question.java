@@ -1,7 +1,6 @@
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
-
 public class Question implements ActionListener{	
 	String[] questions = 	{
 		
