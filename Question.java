@@ -6,7 +6,6 @@ public class Question implements ActionListener{
 				"How many definite articles are in German language?",
 				"How to say no in German?",
 		
-		
 				"How to say yes in German?",
 				"How to say goodbye in German?"					
 							};
