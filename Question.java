@@ -3,7 +3,6 @@ import java.awt.*;
 import javax.swing.*;
 public class Question implements ActionListener{	
 	String[] questions = 	{
-		
 				"How many definite articles are in German language?",
 				"How to say no in German?",
 		
