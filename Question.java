@@ -2,8 +2,7 @@ import java.awt.event.*;
 import java.awt.*;
 
 import javax.swing.*;
-public class Question implements ActionListener{
-	
+public class Question implements ActionListener{	
 	String[] questions = 	{
 				"How many definite articles are in German language?",
 				"How to say no in German?",
@@ -34,7 +33,6 @@ public class Question implements ActionListener{
 	int question_number = questions.length;
 	int score;
 	int seconds=15;	
-	
 	JFrame theframe = new JFrame();
 	JTextField thetextfield = new JTextField();
 	JTextArea thetextarea = new JTextArea();
